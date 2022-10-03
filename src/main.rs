@@ -28,7 +28,7 @@ fn main() {
             println!("{:?} ({})\r", b, c);
         }
 
-        // break from execution when q is pressed
+        // break from execution when crtl + q is pressed
         if b == to_ctrl_byte('q') {
             break;
         }
